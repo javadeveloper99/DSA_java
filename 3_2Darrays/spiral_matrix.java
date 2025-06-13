@@ -1,3 +1,8 @@
+
+//Time Complexity	O(n * m)
+
+//Space Complexity	O(1)
+
 public class spiral_matrix {
 
   public static void printMat(int matrix[][]) {
@@ -28,7 +33,7 @@ public class spiral_matrix {
         bottom--;
       }
 
-      // left column 
+      // left column
       if (left <= right) {
         for (int i = bottom; i >= top; i--) {
           System.out.print(matrix[i][left] + " ");
@@ -40,10 +45,10 @@ public class spiral_matrix {
 
   public static void main(String[] args) {
     int matrix[][] = {
-      { 1, 2, 3, 4 },
-      { 5, 6, 7, 8 },
-      { 9, 10, 11, 12 },
-      { 13, 14, 15, 16 }
+        { 1, 2, 3, 4 },
+        { 5, 6, 7, 8 },
+        { 9, 10, 11, 12 },
+        { 13, 14, 15, 16 }
     };
 
     printMat(matrix);
