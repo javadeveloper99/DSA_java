@@ -11,7 +11,7 @@ Time Complexity
 
  */
 
-public class insertion_sort {
+public class c_insertion_sort {
   public static void print(int arr[]) {
     for (int i = 0; i < arr.length; i++) {
       System.out.print(arr[i] + " ");

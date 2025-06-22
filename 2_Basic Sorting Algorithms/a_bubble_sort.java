@@ -24,7 +24,7 @@ Continue until no swaps are needed, which means the array is sorted.
 
  */
 
-public class bubble_sort {
+public class a_bubble_sort {
   public static void bubbleSort(int arr[]) {
     for (int turn = 0; turn < arr.length - 1; turn++) {
       for (int j = 0; j < arr.length - 1 - turn; j++) {

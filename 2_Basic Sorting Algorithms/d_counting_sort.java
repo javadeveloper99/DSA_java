@@ -3,7 +3,7 @@
  Uses this information to place elements directly into their correct sorted position. */
 
 
-public class counting_sort {
+public class d_counting_sort {
   public static void print(int arr[]) {
     for (int i = 0; i < arr.length; i++) {
       System.out.print(arr[i] + " ");
