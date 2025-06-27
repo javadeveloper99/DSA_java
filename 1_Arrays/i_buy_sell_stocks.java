@@ -1,9 +1,9 @@
 // Time Complexity	O(n)
 // Space Complexity	O(1)
 
-package DSA_java.Arrays;
 
-public class buy_sell_stocks {
+
+public class i_buy_sell_stocks {
   public static int buySellStocks(int prices[]) {
     int buyPrice = Integer.MAX_VALUE;
     int maxProfit = 0;

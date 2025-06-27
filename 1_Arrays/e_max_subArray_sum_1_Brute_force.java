@@ -6,9 +6,9 @@
   - Space Complexity: O(1)
 */
 
-package DSA_java.Arrays;
 
-public class max_subArray_sum_1_Brute_force {
+
+public class e_max_subArray_sum_1_Brute_force {
   public static void maxSubArraySum(int arr[]) {
     int totalSubArrays = 0; // sum n = n(n+1)/2;
     int maxSum = 0;

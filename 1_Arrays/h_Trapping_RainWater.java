@@ -1,9 +1,9 @@
 // Total Time Complexity = O(n)
 // Total Space Complexity = O(n)
 
-package DSA_java.Arrays;
 
-public class TrappingRainWater {
+
+public class h_Trapping_RainWater {
 
   public static void calculateTrappedWater(int[] height) {
     int n = height.length;

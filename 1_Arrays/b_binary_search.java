@@ -2,9 +2,8 @@
 // prerequisites : sorted arrays
 //Time complexity of binary search : O(log n)
 
-package DSA_java.Arrays;
 
-public class binary_search {
+public class b_binary_search {
 
   public static int binarySearch(int key,int arr[]){
      int start=0;

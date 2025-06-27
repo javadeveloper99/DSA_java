@@ -1,9 +1,9 @@
 // Time Complexity = O(n)
 // Space Complexity = O(1)
 
-package DSA_java.Arrays;
 
-public class max_subArray_sum_3_kadanes_Algo {
+
+public class g_max_subArray_sum_3_kadanes_Algo {
 
   public static void maxSubArraySumKadanesAlgo(int arr[]) {
     int maxSum = Integer.MIN_VALUE;
@@ -22,7 +22,7 @@ public class max_subArray_sum_3_kadanes_Algo {
   }
 
   public static void main(String[] args) {
-    int arr[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
+    int arr[] = { 1,-1,6,-1,3};
     maxSubArraySumKadanesAlgo(arr);
   }
 }

@@ -1,8 +1,8 @@
-/* Time Complexity: O(n^2)  && Space Complexity: O(1) */
+//Time Complexity: O(n^2)  && Space Complexity: O(1)
 
-package DSA_java.Arrays;
 
-public class pairs_in_array {
+
+public class c_pairs_in_array {
 
   public static void pairsInArray(int arr[]) {
     int start = 0;
@@ -25,3 +25,5 @@ public class pairs_in_array {
 
   }
 }
+
+

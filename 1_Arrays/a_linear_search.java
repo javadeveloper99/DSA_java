@@ -1,9 +1,9 @@
 
 // Time complexity : O(n);
 
-package DSA_java.Arrays;
 
-public class linear_search {
+
+public class a_linear_search {
 
   public static int linearSearch(int arr[], int key) {
     for (int i = 0; i < arr.length; i++) {

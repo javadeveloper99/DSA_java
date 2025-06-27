@@ -3,9 +3,9 @@
 
 // Reverses the array in-place
 
-package DSA_java.Arrays;
 
-public class reverse_array {
+
+public class a_reverse_array {
   public static void reverseArray(int arr[]) {
     for (int i = 0; i < arr.length / 2; i++) {
       int end = arr.length - 1 - i;

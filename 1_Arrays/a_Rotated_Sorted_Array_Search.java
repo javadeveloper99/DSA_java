@@ -2,9 +2,8 @@
 // Complexity  Time 	 O(log n)
 // Complexity  Space 	 O(1)
 
-package DSA_java.Arrays;
 
-public class Rotated_Sorted_Array_Search {
+public class a_Rotated_Sorted_Array_Search {
 
   public static int search(int[] nums, int target) {
     int left = 0;

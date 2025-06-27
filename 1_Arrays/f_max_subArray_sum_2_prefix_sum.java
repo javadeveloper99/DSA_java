@@ -1,9 +1,9 @@
 /* Time Complexity 	 O(n²)
    Space Complexity	  O(n) */
 
-package DSA_java.Arrays;
 
-public class max_subArray_sum_2_prefix_sum {
+
+public class f_max_subArray_sum_2_prefix_sum {
   public static void maxSubArraySum(int arr[]) {
     int totalSubArrays = 0; // sum n = n(n+1)/2;
     int maxSum = 0;
