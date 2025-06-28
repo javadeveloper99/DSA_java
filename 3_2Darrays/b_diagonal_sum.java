@@ -1,7 +1,7 @@
 // Time complexity - O(n)
 
 // Space complexity - O(1)
-public class diagonal_sum {
+public class b_diagonal_sum {
 
   public static void printMat(int matrix[][]) {
 

@@ -3,7 +3,7 @@
 
 //Space Complexity	O(1)
 
-public class spiral_matrix {
+public class a_spiral_matrix {
 
   public static void printMat(int matrix[][]) {
     int top = 0;

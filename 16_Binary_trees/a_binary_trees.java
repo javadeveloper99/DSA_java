@@ -9,7 +9,7 @@ public class a_binary_trees {
       this.data = data;
     }
   }
-
+// binary tree building
   static class BinaryTree {
     static int idx = -1;
 
@@ -25,7 +25,7 @@ public class a_binary_trees {
 
       return newNode;
     }
-
+// preorder
     public void preorder(Node root) {
       if (root == null)
         return;
@@ -33,7 +33,7 @@ public class a_binary_trees {
       preorder(root.left);
       preorder(root.right);
     }
-
+// inorder
     public void inorder(Node root) {
       if (root == null)
         return;
@@ -42,6 +42,8 @@ public class a_binary_trees {
       inorder(root.right);
     }
 
+  // post order
+
     public void postorder(Node root) {
       if (root == null)
         return;
@@ -49,7 +51,7 @@ public class a_binary_trees {
       postorder(root.right);
       System.out.print(root.data + " ");
     }
-
+// levelorder
     public void levelOrder(Node root) {
       if (root == null)
         return;
@@ -253,17 +255,98 @@ public static Node lca2(Node root, int n1, int n2) {
   return (leftLCA != null) ? leftLCA : rightLCA;
 }
 
+public static int lcaDist(Node root,int n){
+   if (root==null) {
+    return -1;
+
+   }
+
+   if (root.data==n) {
+      return 0;
+   }
+
+   int leftDist=lcaDist(root.left,n);
+   int rightDist=lcaDist(root.right, n);
+
+   if (leftDist==-1 && rightDist == -1) {
+        return -1;
+   }else if(leftDist == -1){
+    return rightDist+1;
+   }else{
+      return leftDist+1;
+   }
+}
+public static int minDist(Node root,int n1,int n2){
+     Node lca=lca2(root, n1, n2);
+
+     int dist1=lcaDist(root, n1);
+     int dist2=lcaDist(lca,n2);
+     return dist1+dist2;
+}
+
+public static int KAncestor(Node root,int n,int k){
+
+  if (root==null) {
+    return -1;
+  }
+   if (root.data==n) {
+       return 0;
+   }
+
+   int leftDist=KAncestor(root.left, n, k);
+   int rightDist=KAncestor(root.right, n, k);
+
+   if(leftDist == -1 && rightDist==-1){
+    return -1;
+   }
+
+   int max=Math.max(leftDist,rightDist);
+
+   if (max+1==k) {
+      System.out.println("root data="+root.data);
+   }
+
+   return max+1;
+}
+
+public static int transformToSumTree(Node root){
+  if (root==null) {
+    return 0;
+  }
+
+  int leftChild=transformToSumTree(root.left);
+  int rightChild=transformToSumTree(root.right);
+
+  int data=root.data;
+
+  int newLeft=root.left==null ? 0 : root.left.data;
+  int newRight=root.right==null ? 0 : root.right.data;
+
+  root.data=newLeft+leftChild+newRight+rightChild;
+  return data;
+
+
+}
+
+public static void preOrder(Node root){
+  if (root==null) {
+    return;
+  }
+
+  System.out.println(root.data+" ");
+  preOrder(root.left);
+  preOrder(root.right);
+
+}
 
   public static void main(String[] args) {
     int[] nodes = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
    BinaryTree tree = new BinaryTree();
    Node root = tree.BuildBinaryTree(nodes);
 
-    Node ans = lca2(root, 4, 5);
-    System.out.println("LCA of 4 and 5 is: " + ans.data);  // Output: 2
+   transformToSumTree(root);
+   preOrder(root);
 
-   ans = lca2(root, 4, 6);
-   System.out.println("LCA of 4 and 6 is: " + ans.data);  // Output: 1
 
   }
 }

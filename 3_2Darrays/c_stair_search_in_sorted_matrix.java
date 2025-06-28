@@ -3,7 +3,7 @@
 
 // Space Complexity	O(1)
 
-public class stair_search_in_sorted_matrix {
+public class c_stair_search_in_sorted_matrix {
   public static boolean stairSearch(int matrix[][], int key) {
     int i = 0;
     int j = matrix[0].length - 1;
