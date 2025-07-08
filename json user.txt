@@ -1,0 +1,20 @@
+{
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "json.schemas": [
+    
+
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esben.pretter-vscode"
+  },
+  "java.project.outputPath": "bin",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "redhat.java" 
+}
+
+
+

@@ -1,4 +1,4 @@
-public class isPalindrome {
+public class a_is_Palindrome {
   public static boolean isPalindrome(String str) {
     int len = str.length() - 1;
     for (int i = 0; i <= len / 2; i++) {

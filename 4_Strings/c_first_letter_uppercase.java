@@ -1,4 +1,4 @@
-public class first_letter_uppercase {
+public class c_first_letter_uppercase {
   public static StringBuilder toUppercase(String str){
     StringBuilder sb=new StringBuilder();
     char ch = Character.toUpperCase(str.charAt(0));

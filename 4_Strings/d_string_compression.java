@@ -1,11 +1,11 @@
-public class string_compression {
+public class d_string_compression {
   public static String stringCompression(String str) {
     // StringBuilder sb = new StringBuilder("");
     String newStr = "";
 
     for (int i = 0; i < str.length() - 1; i++) {
+
       Integer count = 1;
-      char ch = str.charAt(i);
 
       while (i < str.length() - 1 && str.charAt(i) == str.charAt(i + 1)) {
         count++;

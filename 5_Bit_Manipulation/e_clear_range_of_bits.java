@@ -1,8 +1,8 @@
-public class clear_range_of_bits {
+public class e_clear_range_of_bits {
 
   public static int clearRangeOfBit(int n,int i,int j){
        int bitmask_a=(~0)<<j+1;
-       int bitmask_b=(i<<i)-1;
+       int bitmask_b=(1<<i)-1;
 
        int bitmask = bitmask_a | bitmask_b ;
 

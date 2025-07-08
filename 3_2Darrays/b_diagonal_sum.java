@@ -11,7 +11,7 @@ public class b_diagonal_sum {
     for (int i = 0; i < matrix.length; i++) {
       sum += matrix[i][i];
       if (i != n - i) {
-        sum += matrix[i][n - i];
+        sum += matrix[i][n - i];//middle case if exist
       }
     }
 

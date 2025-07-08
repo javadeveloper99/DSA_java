@@ -1,0 +1,43 @@
+{
+  // === 🖋️ Font style ===
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 17,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.5,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.smoothScrolling": true,
+
+  // === 🎨 Editor look & feel ===
+  "editor.renderWhitespace": "boundary",
+  "editor.renderLineHighlight": "all",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 80,
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": true,
+
+  // === 💾 Auto-save ===
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // === 💡 Workbench appearance ===
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "vscode-icons",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1,
+
+  // === 🗂️ File explorer style ===
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // === ⚡ JSON schemas placeholder (optional) ===
+  "json.schemas": [
+  
+  ]
+}

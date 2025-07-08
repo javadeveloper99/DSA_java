@@ -1,4 +1,4 @@
-public class shortest_path {
+public class b_shortest_path {
 
   public static int shortestPath(String str) {
     int x = 0;
@@ -18,12 +18,12 @@ public class shortest_path {
     }
 
     double distance = Math.sqrt(x * x + y * y);
-    return (int) distance; 
+    return (int)distance;
   }
 
   public static void main(String[] args) {
-    String str = "WNEENESENNN";
-    int result = shortestPath(str);
+    String str = "WNEENESENNNWNSEWNSE";
+    int  result = shortestPath(str);
     System.out.println("Shortest Path = " + result);
   }
 }

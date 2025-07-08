@@ -1,6 +1,6 @@
 
 
-public class isEvenOdd {
+public class a_isEvenOdd {
      public static String evenOdd(int n){
             int bitmast=1;
 

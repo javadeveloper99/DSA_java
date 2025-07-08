@@ -1,4 +1,4 @@
-public class count_set_bits {
+public class g_count_set_bits {
   public static int countSetBits(int n) {
     int count = 0;
 

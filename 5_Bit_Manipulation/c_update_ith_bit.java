@@ -1,4 +1,4 @@
-public class update_ith_bit {
+public class c_update_ith_bit {
 
   public static int set_ith_bit(int n, int i) {
     int bitmast = 1 << i;

@@ -1,4 +1,4 @@
-public class fast_exponentiation {
+public class h_fast_exponentiation {
 
   public static int fastExpo(int a,int n){
     int ans=1;
