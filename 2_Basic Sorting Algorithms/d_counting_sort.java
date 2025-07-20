@@ -1,7 +1,7 @@
 /* Counts how many times each value occurs.
 
- Uses this information to place elements directly into their correct sorted position. */
-
+ Problem Statement: Counting Sort Implementation
+You are given an array of non-negative integers. Your task is to sort the array using the Counting Sort algorithm, which leverages the frequency of each element to place them in their correct position. */
 
 public class d_counting_sort {
   public static void print(int arr[]) {
@@ -23,7 +23,7 @@ public class d_counting_sort {
 
     }
     int start = 0;
-    for (int i = 0; i < arr.length; i++) {
+    for (int i = 0; i < counting.length; i++) {
       while (counting[i] > 0) {
         arr[start] = i;
         start++;

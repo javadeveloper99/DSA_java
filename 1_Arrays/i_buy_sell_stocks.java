@@ -1,7 +1,13 @@
 // Time Complexity	O(n)
 // Space Complexity	O(1)
 
+/* Problem: Best Time to Buy and Sell Stock (Leetcode 121 style)
+🧾 Statement:
+You are given an array prices where prices[i] represents the price of a stock on the i-th day.
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
 
+Return the maximum profit you can achieve from this transaction.
+If you cannot make any profit, return 0. */
 
 public class i_buy_sell_stocks {
   public static int buySellStocks(int prices[]) {

@@ -2,6 +2,12 @@
 // Complexity  Time 	 O(log n)
 // Complexity  Space 	 O(1)
 
+/* You are given a sorted array, but it has been rotated at some pivot you don't know.
+
+Example: Original sorted: [1, 2, 3, 4, 5, 6, 7]
+Rotated: [4, 5, 6, 7, 1, 2, 3]
+
+You need to find the index of a given target element in this rotated array in O(log n) time (so basically, like binary search). */
 
 public class a_Rotated_Sorted_Array_Search {
 

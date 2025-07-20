@@ -2,7 +2,18 @@
 
 //Space Complexity- O(1)
 
-/* Time Complexity best,Average,Worst	O(n²):Because the inner loop always runs (n - i - 1) times, regardless of whether the array is already sorted. */
+/* Time Complexity best,Average,Worst	O(n²):Because the inner loop always runs (n - i - 1) times, regardless of whether the array is already sorted. 
+ * 
+ * 
+ *  Problem: Sort an Array Using Selection Sort
+🧾 Statement:
+You are given an unsorted array of integers.
+Your task is to sort the array in ascending order using the Selection Sort algorithm.
+
+In Selection Sort, the idea is to repeatedly find the smallest element from the unsorted part of the array and swap it with the first unsorted element, effectively growing the sorted portion one element at a time.
+
+You must implement this sorting algorithm in-place (i.e., using constant extra space).
+*/
 
 public class b_selection_sort {
 
