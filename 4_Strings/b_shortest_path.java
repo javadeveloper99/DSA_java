@@ -1,6 +1,6 @@
 public class b_shortest_path {
 
-  public static int shortestPath(String str) {
+  public static double shortestPath(String str) {
     int x = 0;
     int y = 0;
 
@@ -17,13 +17,13 @@ public class b_shortest_path {
       }
     }
 
-    double distance = Math.sqrt(x * x + y * y);
-    return (int)distance;
+    return Math.sqrt(x * x + y * y);
   }
 
   public static void main(String[] args) {
     String str = "WNEENESENNNWNSEWNSE";
-    int  result = shortestPath(str);
+    double result = shortestPath(str);
+
     System.out.println("Shortest Path = " + result);
   }
 }
