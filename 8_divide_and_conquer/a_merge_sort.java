@@ -1,4 +1,15 @@
-public class merge_sort {
+
+/* 🧩 Problem Statement: Implement Merge Sort Algorithm
+You are given an array of integers. Your task is to sort the array in ascending order using the Merge Sort algorithm.
+
+Merge Sort is a classic divide-and-conquer sorting algorithm that:
+
+Divides the array into two halves.
+
+Recursively sorts each half.
+
+Merges the sorted halves into a final sorted array. */
+public class a_merge_sort {
 
   // Time: O(n log n), Space: O(n)
   public static void mergeSort(int[] arr, int si, int ei) {

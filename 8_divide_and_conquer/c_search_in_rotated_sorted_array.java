@@ -1,4 +1,4 @@
-public class search_in_rotated_sorted_array {
+public class c_search_in_rotated_sorted_array {
 
   public static int searchRotatedArray(int arr[], int key) {
     int si = 0;

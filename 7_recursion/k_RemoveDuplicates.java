@@ -1,9 +1,13 @@
 
 // ===================== Remove Duplicates =====================
+/*  Problem: Remove Duplicates from a String (Preserve Order)
+You are given a lowercase string str (e.g. "vvvvviiivveekk"). Your task is to remove all duplicate characters, preserving the order of their first occurrence. */
+
 public class k_RemoveDuplicates {
   public static String removeDuplicates(String str, StringBuilder newStr, int idx, boolean[] map) {
     if (idx == str.length())
       return newStr.toString();
+
     char currChar = str.charAt(idx);
     if (!map[currChar - 'a']) {
       map[currChar - 'a'] = true;

@@ -1,5 +1,9 @@
 
 // ===================== Binary String Without Consecutive 1s =====================
+/* 🔢 Problem: Binary Strings Without Consecutive 1s
+Given a positive integer n, print all binary strings of length n such that:
+
+No two 1s are adjacent (i.e., no "11" appears anywhere in the string). */
 public class m_BinaryString {
   public static void printBinString(int n, int lastPlace, String str) {
     if (n == 0) {
