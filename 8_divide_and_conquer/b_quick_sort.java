@@ -3,11 +3,12 @@ You are given an array of integers. Your task is to sort the array in ascending 
 
 Quick Sort is a divide-and-conquer sorting algorithm that:
 
-Selects a pivot element.
+Picking a Pivot (usually last element).
 
-Partitions the array such that all elements less than or equal to the pivot go to the left, and those greater go to the right.
+Partitioning: Putting all elements smaller than or equal to the pivot to the left, and greater to the right.
 
-Recursively applies the same logic to the left and right subarrays. */
+Recursively applying the same logic to the left and right subarrays. 
+*/
 public class b_quick_sort {
 
   /*
@@ -19,12 +20,6 @@ public class b_quick_sort {
    *
    * Space Complexity: O(log n) (due to recursion stack)
    */
-  public static void printArr(int[] arr) {
-    for (int num : arr) {
-      System.out.print(num + " ");
-    }
-    System.out.println();
-  }
 
   public static void quickSort(int arr[], int si, int ei) {
     if (si >= ei) {
@@ -57,6 +52,13 @@ public class b_quick_sort {
 
     return i;
 
+  }
+
+  public static void printArr(int[] arr) {
+    for (int num : arr) {
+      System.out.print(num + " ");
+    }
+    System.out.println();
   }
 
   public static void main(String[] args) {

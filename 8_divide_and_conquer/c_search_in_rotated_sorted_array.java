@@ -1,3 +1,8 @@
+
+/* 🧩 Problem Statement: Search in a Rotated Sorted Array
+You are given a sorted array that has been rotated at some unknown pivot point. Your task is to search for a target element (key) in this array and return its index.
+
+If the element is not found, return -1. */
 public class c_search_in_rotated_sorted_array {
 
   public static int searchRotatedArray(int arr[], int key) {

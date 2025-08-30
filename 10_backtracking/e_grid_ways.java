@@ -1,4 +1,4 @@
-public class grid_ways {
+public class e_grid_ways {
 
   // Use long to avoid overflow for larger values
   public static long factorial(int n) {

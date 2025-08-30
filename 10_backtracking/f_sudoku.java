@@ -1,4 +1,4 @@
-public class sudoku {
+public class f_sudoku {
 
   public static boolean isSafeToPlace(int[][] board, int row, int col, int num) {
     // Row check

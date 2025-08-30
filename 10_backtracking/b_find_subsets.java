@@ -1,4 +1,15 @@
-public class find_subsets {
+/* Input: "abc"
+
+Output:
+abc  
+ab  
+ac  
+a  
+bc  
+b  
+c  
+null */
+public class b_find_subsets {
 
   public static void findSubset(String str, String ans, int i) {
     if (i == str.length()) {

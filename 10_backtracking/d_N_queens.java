@@ -1,4 +1,4 @@
-public class n_queens {
+public class d_N_queens {
 
   public static void nQueen(char board[][], int row) {
     if (row == board.length) {
@@ -16,7 +16,7 @@ public class n_queens {
     }
   }
 
-  static int count=0;
+  static int count = 0;
 
   public static boolean isSafe(char board[][], int row, int col) {
     // vertical up
@@ -66,6 +66,6 @@ public class n_queens {
     }
 
     nQueen(board, 0);
-    System.out.println("There are "+count+" possible structures");
+    System.out.println("There are " + count + " possible structures");
   }
 }

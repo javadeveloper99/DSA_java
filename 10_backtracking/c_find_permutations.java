@@ -1,4 +1,4 @@
-public class find_permutations {
+public class c_find_permutations {
   public static void permutations(String str,String  ans){
     if (str.length()==0) {
       System.out.println(ans);
